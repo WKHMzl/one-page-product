@@ -25,41 +25,99 @@ body {
     position: relative;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #f0f0f0;
 }
 
+/* Container do cabeçalho */
 .header-container {
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
 }
 
-.hero-container img {
+/* Imagem principal */
+.hero-image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.hero-img {
     width: 100%;
     height: auto;
     border-radius: 8px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Título e subtítulo */
+.hero-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #333;
+    max-width: 50%;
 }
 
 .hero-text h1 {
     font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
 }
 
 .cta-button {
-    background-color: var(--accent-color);
-    color: white;
     padding: 1.2rem 3rem;
-    border-radius: 8px;
-    text-decoration: none;
+    background-color: #ff6f61;
+    color: white;
     font-size: 1.2rem;
-    margin-top: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .cta-button:hover {
     background-color: #e55d4d;
     transform: translateY(-5px);
+}
+
+/* 2. Responsividade */
+@media (max-width: 768px) {
+    /* Para telas pequenas, a imagem ocupa a parte superior e o texto fica embaixo */
+    #header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .hero-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .hero-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+
+    .cta-button {
+        padding: 1rem 2rem;
+    }
 }
 
 /* 2. Hero Section */
