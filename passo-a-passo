@@ -88,7 +88,7 @@ Vercel detecta automaticamente e faz o deploy.
 Passo 7: Configurar Subdomínio no GoDaddy e Vercel
 Criar o subdomínio no GoDaddy:
 
-Acesse o painel de DNS do domínio.
+Acesse o painel de DNS do domínio mercadovantagem.com.
 Adicione o registro CNAME para o subdomínio testeproduto.mercadovantagem.com:
 
 Nome: testeproduto
@@ -97,7 +97,7 @@ Valor: cname.vercel-dns.com.
 
 Adicionar o subdomínio no Vercel:
 
-No Vercel, vá para Settings > Domains e adicione o subdomínio.
+No Vercel, vá para Settings > Domains e adicione testeproduto.mercadovantagem.com.
 
 Verificar o domínio no Vercel:
 
@@ -109,7 +109,7 @@ Verificar a propagação usando sites como:
 WhatsMyDNS
 MXToolbox
 DNSstuff
-Verificar a propagação do subdomínio e aguardar a atualização dos registros DNS.
+Verificar a propagação de testeproduto.mercadovantagem.com e aguardar a atualização dos registros DNS.
 
 Conclusão
 Subdomínio configurado e página funcionando no Vercel.
