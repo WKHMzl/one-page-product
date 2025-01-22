@@ -16,3 +16,18 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector('#comprar').scrollIntoView({ behavior: 'smooth' });
     });
 });
+
+
+//Menu flutuante
+
+document.addEventListener('DOMContentLoaded', () => {
+    const menu = document.querySelector('.floating_item');
+    const options = document.querySelector('.options');
+
+    // Alterna a classe 'active' no botão flutuante
+    menu.onclick = () => menu.classList.toggle('active');
+});
+
+
+//Fechamento Menu flutuante
+

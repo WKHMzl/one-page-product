@@ -6,106 +6,126 @@
     <meta name="description" content="Descrição do seu produto para SEO">
     <title>Produto Incrível</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/botao-flutuante.css">
 </head>
 <body>
-    <!-- Cabeçalho -->
-    <header id="header">
-        <div class="header-container">
-            <!-- Imagem Principal -->
-            <div class="hero-image">
-                <img src="assets/produto.jpg" alt="Imagem do Produto" class="hero-img">
-            </div>
 
-            <!-- Título e Subtítulo -->
-            <div class="hero-text">
-                <h1>Transforme sua pele em 7 dias com [Produto]</h1>
-                <p>A solução definitiva para combater acne de forma rápida e eficaz.</p>
-                <a href="#comprar" class="cta-button">Compre Agora</a>
-            </div>
+    <main>
+                <!-- 2. Hero Section -->
+        <section id="hero">
+            <header>
+                <!-- Título e Subtítulo -->
+                    <h1>Transforme sua pele em 7 dias com a OralPet</h1>
+                    <hr/>
+                    <p>A solução definitiva para combater acne de forma rápida e eficaz.</p>
+            </header>
+
+                <div id="header-container">
+                    <!-- Imagem Principal -->
+                    <figure><img src="assets/principal.webp" alt="Imagem do Produto" class="hero-img"></figure>
+        </section>
+
+
+                <div class="container">
+                    <img src="assets/" alt="Produto" class="hero-image">
+                    <h2>Headline Principal do Produto</h2>
+                    <p class="subheadline">Subheadline explicando o principal benefício</p>
+                </div>
+
+        <!-- Botão flutuante -->
+<div class="menu_content">
+    <div class="item floating_item">
+        <i class="fa-solid fa-paw"></i>
+    </div>
+    <div class="options">
+        <div class="item" style="background-color: #008E9B;">
+            <a href="google.com" style="text-decoration: none; color: inherit;">
+                <i class="fab fa-whatsapp"></i>
+            </a>
         </div>
-    </header>
-
-    <!-- 2. Hero Section -->
-    <section id="hero">
-        <div class="container">
-            <img src="assets/produto.jpg" alt="Produto" class="hero-image">
-            <h2>Headline Principal do Produto</h2>
-            <p class="subheadline">Subheadline explicando o principal benefício</p>
+        <div class="item" style="background-color: #FFC75F;">
+            <a href="youtube.com" style="text-decoration: none; color: inherit;">
+                <i class="fab fa-question"></i>
+            </a>
         </div>
-    </section>
+    </div>
+</div>
 
-    <!-- 3. Prova Social e Confiança -->
-    <section id="testimonials">
-        <div class="container">
-            <h3>O que dizem nossos clientes</h3>
-            <div class="testimonials-grid">
-                <div class="testimonial-item">
-                    <div class="stars">★★★★★</div>
-                    <p>"Produto incrível, mudou minha vida!" - João</p>
+        <!-- 3. Prova Social e Confiança -->
+        <section id="testimonials">
+            <div class="container">
+                <h3>O que dizem nossos clientes</h3>
+                <div class="testimonials-grid">
+                    <div class="testimonial-item">
+                        <div class="stars">★★★★★</div>
+                        <p>"Produto incrível, mudou minha vida!" - João</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- 4. Benefícios e Proposta de Valor -->
-    <section id="benefits">
-        <div class="container">
-            <h3>Principais Benefícios</h3>
-            <div class="benefits-grid">
-                <div class="benefit-item">
-                    <img src="assets/check.svg" alt="Check">
-                    <p>Acabe com a acne em 7 dias</p>
-                </div>
-                <div class="benefit-item">
-                    <img src="assets/check.svg" alt="Check">
-                    <p>Comprovado por dermatologistas</p>
-                </div>
-                <div class="benefit-item">
-                    <img src="assets/check.svg" alt="Check">
-                    <p>Hidratação profunda</p>
+
+        <!-- 4. Benefícios e Proposta de Valor -->
+        <section id="benefits">
+            <div class="container">
+                <h3>Principais Benefícios</h3>
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <img src="assets/check.svg" alt="Check">
+                        <p>Acabe com a acne em 7 dias</p>
+                    </div>
+                    <div class="benefit-item">
+                        <img src="assets/check.svg" alt="Check">
+                        <p>Comprovado por dermatologistas</p>
+                    </div>
+                    <div class="benefit-item">
+                        <img src="assets/check.svg" alt="Check">
+                        <p>Hidratação profunda</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- 5. Oferta e Urgência -->
-    <section id="price-section">
-        <div class="container">
-            <div id="timer" class="countdown">
-                Oferta especial termina em: <span id="countdown-timer">23:59:59</span>
+        <!-- 5. Oferta e Urgência -->
+        <section id="price-section">
+            <div class="container">
+                <div id="timer" class="countdown">
+                    Oferta especial termina em: <span id="countdown-timer">23:59:59</span>
+                </div>
+                <div class="price-box">
+                    <span class="original-price">De R$ 397,00</span>
+                    <span class="current-price">Por R$ 197,00</span>
+                    <span class="installments">ou 12x de R$ 19,70</span>
+                </div>
+                <a style="color: #1d9e3d;" href="#header" class="cta-button">COMPRAR AGORA</a>
             </div>
-            <div class="price-box">
-                <span class="original-price">De R$ 397,00</span>
-                <span class="current-price">Por R$ 197,00</span>
-                <span class="installments">ou 12x de R$ 19,70</span>
+        </section>
+
+        <!-- 6. Prova Social Adicional -->
+        <section id="social-proof">
+            <div class="container">
+                <h3>Garantia de Satisfação</h3>
+                <p>Garantia de 30 dias ou seu dinheiro de volta!</p>
             </div>
-            <a href="#comprar" class="cta-button">COMPRAR AGORA</a>
-        </div>
-    </section>
+        </section>
 
-    <!-- 6. Prova Social Adicional -->
-    <section id="social-proof">
-        <div class="container">
-            <h3>Garantia de Satisfação</h3>
-            <p>Garantia de 30 dias ou seu dinheiro de volta!</p>
-        </div>
-    </section>
-
-    <!-- 7. Detalhes Adicionais -->
-    <section id="details">
-        <div class="container">
-            <h3>Como Funciona?</h3>
-            <p>Entenda o poder da nossa fórmula...</p>
-        </div>
-    </section>
+        <!-- 7. Detalhes Adicionais -->
+        <section id="details">
+            <div class="container">
+                <h3>Como Funciona?</h3>
+                <p>Entenda o poder da nossa fórmula...</p>
+            </div>
+        </section>
+    </main>
 
     <!-- 8. Rodapé -->
-    <footer>
+    <footer id="footer">
         <div class="container">
             <p>© 2025 Sua Empresa - Todos os direitos reservados</p>
         </div>
     </footer>
 
     <script src="js/script.js"></script>
+
 </body>
 </html>
