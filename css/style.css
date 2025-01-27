@@ -38,7 +38,7 @@ body {
 
 /* Container */
 .container {
-  width: min(95%, var(--max-width));
+  width: min(98%, var(--max-width));
   margin: 0 auto;
   padding: var(--section-padding);
 }
@@ -90,7 +90,7 @@ h3 { font-size: clamp(1.25rem, 2.5vw, 2rem); }
   background: var(--white);
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
-  padding: clamp(1.5rem, 3vw, 2.5rem);
+  padding: clamp(1.8rem, 3.2vw, 2.8rem);
   margin: 2rem auto;
 }
 
@@ -123,7 +123,7 @@ h3 { font-size: clamp(1.25rem, 2.5vw, 2rem); }
   background: var(--white);
   border-radius: var(--border-radius);
   border-left: 4px solid var(--primary-color);
-  padding: 1.5rem;
+  padding: 1.8rem;
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
@@ -157,7 +157,7 @@ h3 { font-size: clamp(1.25rem, 2.5vw, 2rem); }
 .step-item {
   background: var(--white);
   border-radius: var(--border-radius);
-  padding: 1.5rem;
+  padding: 1.8rem;
   box-shadow: var(--shadow);
 }
 
@@ -275,7 +275,7 @@ h3 { font-size: clamp(1.25rem, 2.5vw, 2rem); }
   
   .benefit-item,
   .step-item {
-    padding: 1.25rem;
+    padding: 1.5rem;
   }
 }
 
